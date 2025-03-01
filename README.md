@@ -113,7 +113,7 @@ button.category:hover {
             image: "https://independentview.net/wp-content/uploads/2017/09/256880.jpg",
             category: "технології"
         }
-    ];
+        ];
 
     const newsContainer = document.getElementById("news-container");
 
