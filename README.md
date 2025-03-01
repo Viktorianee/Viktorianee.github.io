@@ -49,6 +49,7 @@ button.category {
     margin: 5px;
     border-radius: 20px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button.category:hover {
@@ -96,24 +97,24 @@ button.category:hover {
             id: 1,
             title: "Україна отримала новий пакет допомоги",
             description: "ЄС схвалив фінансову допомогу...",
-            image: "https://mil.in.ua/wp-content/uploads/2024/01/229928_ukraine-eu_gettyimages_new_960x380_0.webp",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Ukraine.svg/2560px-Flag_of_Ukraine.svg.png",
             category: "політика"
         },
         {
             id: 2,
             title: "Нова перемога української збірної",
             description: "Збірна України здобула перемогу...",
-            image: "https://shotam.info/wp-content/uploads/2024/06/pp.jpg",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Soccer_ball.svg/1200px-Soccer_ball.svg.png",
             category: "спорт"
         },
         {
             id: 3,
             title: "В Україні стартував масштабний IT-форум",
-            description: "У Києві відбувся один із найбільших IT-форумів, на якому представили нові технології штучного інтелекту та кібербезпеки.",
-            image: "https://independentview.net/wp-content/uploads/2017/09/256880.jpg",
+            description: "У Києві відбувся один із найбільших IT-форумів.",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Computer-screen-code-glitch-animation-gif-background-free.gif/1200px-Computer-screen-code-glitch-animation-gif-background-free.gif",
             category: "технології"
         }
-        ];
+    ];
 
     const newsContainer = document.getElementById("news-container");
 
@@ -130,7 +131,7 @@ button.category:hover {
                     <p>${news.description}</p>
                 ;
                 newsCard.addEventListener("click", () => {
-                    window.location.href = news.html?id=${news.id};
+                    alert(Ви відкрили новину: ${news.title});
                 });
                 newsContainer.appendChild(newsCard);
             });
