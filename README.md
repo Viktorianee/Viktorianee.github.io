@@ -1,4 +1,3 @@
- NEWS SITE
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -111,7 +110,7 @@ button.category:hover {
             id: 3,
             title: "В Україні стартував масштабний IT-форум",
             description: "У Києві відбувся один із найбільших IT-форумів, на якому представили нові технології штучного інтелекту та кібербезпеки.",
-            image: "https://independentview.net/wp-content/uploads/2017/09/256880.jpg", // Використовуй зображення, яке я згенерував
+            image: "https://independentview.net/wp-content/uploads/2017/09/256880.jpg",
             category: "технології"
         }
     ];
