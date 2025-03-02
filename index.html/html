@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Новини</h1>
+</header>
+
+<nav>
+    <button class="category" data-category="all">Всі</button>
+    <button class="category" data-category="політика">Політика</button>
+    <button class="category" data-category="спорт">Спорт</button>
+    <button class="category" data-category="технології">Технології</button>
+</nav>
+
+<div id="news-container"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
